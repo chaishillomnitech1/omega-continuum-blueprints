@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ScrollVerse Sovereign Lookbook — Archive</title>
+  <style>
+    :root {
+      --gold: #d4af37;
+      --bg: #0a0a0f;
+      --card: #12121a;
+      --text: #e8e6e3;
+      --muted: #8a8680;
+      --accent: #00c853;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 2rem 1.25rem; }
+    header {
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+      border-bottom: 1px solid #222;
+      margin-bottom: 2.5rem;
+    }
+    header h1 {
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+      letter-spacing: -0.02em;
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+    }
+    header p { color: var(--muted); font-size: 0.95rem; }
+    .badge {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.35rem 0.9rem;
+      border: 1px solid var(--gold);
+      border-radius: 999px;
+      font-size: 0.75rem;
+      color: var(--gold);
+      letter-spacing: 0.05em;
+    }
+    .stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+      margin: 2rem 0 3rem;
+    }
+    .stat {
+      text-align: center;
+      min-width: 100px;
+    }
+    .stat .num { font-size: 1.75rem; font-weight: 700; color: var(--gold); }
+    .stat .lbl { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+    section { margin-bottom: 3rem; }
+    section h2 {
+      font-size: 1.25rem;
+      color: var(--gold);
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid #222;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1.25rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid #222;
+      border-radius: 12px;
+      padding: 1.25rem;
+      transition: border-color 0.2s;
+    }
+    .card:hover { border-color: var(--gold); }
+    .card h3 { font-size: 1rem; margin-bottom: 0.35rem; }
+    .card .tag {
+      display: inline-block;
+      font-size: 0.65rem;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.04em;
+    }
+    .card p { font-size: 0.85rem; color: var(--muted); }
+    .card a {
+      display: inline-block;
+      margin-top: 0.75rem;
+      font-size: 0.8rem;
+      color: var(--gold);
+      text-decoration: none;
+    }
+    .card a:hover { text-decoration: underline; }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      border-top: 1px solid #222;
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+    footer a { color: var(--gold); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>ScrollVerse Sovereign Lookbook</h1>
+      <p>Design archive of concepts, music catalog, and infrastructure notes from this continuum</p>
+      <div class="badge">Private Blueprints Protected · Design Layer Only</div>
+    </header>
+
+    <div class="stats">
+      <div class="stat"><div class="num">1</div><div class="lbl">Private Blueprint Repo</div></div>
+      <div class="stat"><div class="num">75+</div><div class="lbl">Public Repos (GitHub)</div></div>
+      <div class="stat"><div class="num">∞</div><div class="lbl">Creative Continuum</div></div>
+    </div>
+
+    <section>
+      <h2>Music Catalog</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="tag">FLAGSHIP</div>
+          <h3>Throwing Stones</h3>
+          <p>Master release — Chais The Great</p>
+          <a href="https://vyd.co/ChaisTheGreatThrowingStones" target="_blank" rel="noopener">Vyd.co Smart Link →</a><br>
+          <a href="https://open.spotify.com/artist/3P0GWluMPNZ2xSCVffVGAr" target="_blank" rel="noopener">Spotify Artist →</a>
+        </div>
+        <div class="card">
+          <div class="tag">ARCHIVE</div>
+          <h3>PNB Rock Vibes</h3>
+          <p>Highway Era mix (narrative)</p>
+        </div>
+        <div class="card">
+          <div class="tag">GENESIS</div>
+          <h3>Cosmic Awakening</h3>
+          <p>Tuned session (narrative)</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Dynasty Coin Concepts (Design Specs)</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Paul Cuffe</h3>
+          <p>Zero-warehouse grid lines shader concept — logistics routing mesh</p>
+        </div>
+        <div class="card">
+          <h3>Mansa Musa</h3>
+          <p>963 Hz frequency glow shader concept — emissive ring</p>
+        </div>
+        <div class="card">
+          <h3>King Solomon</h3>
+          <p>Architectural & geometric logic keys (narrative)</p>
+        </div>
+        <div class="card">
+          <h3>Kofi & War Sechum</h3>
+          <p>Protective framework concept (narrative)</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Infrastructure & Blueprints</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Private Archive</h3>
+          <p>omega-continuum-blueprints — all decrees, coin specs, and catalog notes sealed</p>
+          <a href="https://github.com/chaishillomnitech1/omega-continuum-blueprints" target="_blank" rel="noopener">View Private Repo →</a>
+        </div>
+        <div class="card">
+          <h3>Public GitHub</h3>
+          <p>chaishillomnitech1 — 75+ repositories</p>
+          <a href="https://github.com/chaishillomnitech1" target="_blank" rel="noopener">GitHub Profile →</a>
+        </div>
+        <div class="card">
+          <h3>ScrollVerse</h3>
+          <p>Main portal reference</p>
+          <a href="https://scrollverse.co" target="_blank" rel="noopener">scrollverse.co →</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Narrative Episodes (Design Layer)</h2>
+      <div class="grid">
+        <div class="card"><h3>EP 111</h3><p>The Post-Quantum Reality Engine</p></div>
+        <div class="card"><h3>EP 124</h3><p>The Inheritance Core</p></div>
+        <div class="card"><h3>EP 126</h3><p>The Future Compiler</p></div>
+        <div class="card"><h3>EP 129</h3><p>The Celestial Bridge</p></div>
+        <div class="card"><h3>EP 130</h3><p>The Maintenance Autopilot</p></div>
+        <div class="card"><h3>EP 132</h3><p>The Ethical Apex</p></div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Design archive only. No live token sales, NFT mints, or production deployments claimed from this page.</p>
+      <p style="margin-top:0.5rem">Blueprints protected in private repository · <a href="https://github.com/chaishillomnitech1">chaishillomnitech1</a></p>
+    </footer>
+  </div>
+</body>
+</html>
